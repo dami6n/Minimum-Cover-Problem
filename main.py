@@ -4,7 +4,7 @@ import minimum_cover_algorithm
 
 
 # Ask user for file name
-opt = raw_input("Introduzca el numero de ejercicio de la practica que desea probar (opciones validas = 2 o 3): ")
+opt = input("Introduzca el numero de ejercicio de la practica que desea probar (opciones validas = 2 o 3): ")
 print("----------------------------------")
 errorMsg=""
 
@@ -13,7 +13,7 @@ try:
         errorMsg="Opcion no valida"
         assert opt=="3" or opt=="2"
         # Ask user for file name
-    file_name = raw_input("Introduzca el nombre del archivo: ")
+    file_name = input("Introduzca el nombre del archivo: ")
     print("----------------------------------")
 
     # Check if file exists in project folder
